@@ -33,6 +33,7 @@ function BankDetails({}: Props) {
 			account: account,
 			bank: bankName,
 		};
+		router.push("/");
 		// try {
 		// 	await client.patch(currentUser?.id || uuid(), (patch: { set: (arg0: { _type: string; _id: string; account: string; bank: string; }) => any; })=>patch.set(newBill))
 		// 		router.push("/paymentMethod");
