@@ -9,7 +9,6 @@ import { fetchBill } from "@/utils/fetchBill";
 import useAuth from "@/hooks/useAuth";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
-import bill from "@/trip/schemas/bill";
 
 const inter = Inter({ subsets: ["latin"] });
 
